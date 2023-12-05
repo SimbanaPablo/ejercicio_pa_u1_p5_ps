@@ -1,0 +1,31 @@
+package com.uce.edu.inventario.service;
+
+import com.uce.edu.inventario.repository.modelo.Bodega;
+
+public class BodegaServiceImp implements IBodegaService {
+
+	@Override
+	public Bodega buscar(String codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void guardar(Bodega bo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Bodega bo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eliminar(String codigo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

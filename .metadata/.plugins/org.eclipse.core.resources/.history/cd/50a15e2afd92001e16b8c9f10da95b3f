@@ -1,0 +1,8 @@
+package com.uce.edu.ec.repository.modelo;
+
+public class Propietario {
+	private String nombre;
+	private String apellido;
+	private String cedula;
+	private String genero;
+}

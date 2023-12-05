@@ -1,0 +1,14 @@
+package com.uce.edu.ec.repository.modelo;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Matricula {
+	private LocalDateTime fecha;
+	private BigDecimal valor;
+	private Propietario propietario;
+	private Vehiculo vehiculo;
+}

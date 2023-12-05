@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.config.ConfigurableBeanFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="com.uce.edu.transferencia.repository.ITransferenciaRepository"/>
+    <fullyQualifiedTypeName name="com.uce.edu.transferencia.repository.ICuentaBancariaRepository"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.uce.edu.transferencia.repository.modelo.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="com.uce.edu.Pa2U1P5PsApplication"/>
+    <fullyQualifiedTypeName name="com.uce.edu.transferencia.service.ITransferenciaService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.uce.edu.inventario.repository.modelo.Bodega"/>
+    <fullyQualifiedTypeName name="com.uce.edu.inventario.repository.IBodegaRepository"/>
+    <fullyQualifiedTypeName name="com.uce.edu.inventario.service.IProductoService"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfigurationPackage"/>
+    <fullyQualifiedTypeName name="com.uce.edu.inventario.service.IInventarioService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.parsing.Problem"/>
+    <fullyQualifiedTypeName name="com.uce.edu.inventario.service.InventarioServiceImp"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>

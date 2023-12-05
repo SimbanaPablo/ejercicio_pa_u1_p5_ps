@@ -1,0 +1,31 @@
+package com.uce.edu.ec.repository;
+
+import com.uce.edu.ec.repository.modelo.Propietario;
+
+public class PropietarioRepositoryImp implements IPropietarioRepository {
+
+	@Override
+	public void seleccionar(String cedula) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void insertar(Propietario propietario) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Propietario propietario) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eliminar(String cedula) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

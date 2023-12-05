@@ -1,0 +1,54 @@
+package com.uce.edu.ec.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.uce.edu.ec.repository.modelo.Propietario;
+import com.uce.edu.ec.repository.modelo.Vehiculo;
+
+public class PropietarioRepositoryImp implements IPropietarioRepository {
+
+	public static List<Propietario> base = new ArrayList<Propietario>();
+
+	@Override
+	public Propietario seleccionar(String cedula) {
+		// TODO Auto-generated method stub
+		for (Propietario propietario : base) {
+			if (propietario.getCedula().equals(cedula)) {
+				
+				return v;
+			}
+		}
+		return null;
+	}
+
+	public Propietario seleccionarEliminar(String placa) {
+		// TODO Auto-generated method stub
+		for (Propietario Propietario : base) {
+			if (vehiculo.getPlaca().equals(placa)) {
+				return Propietario;
+			}
+		}
+		return null;
+	}
+
+	@Override
+	public void insertar(Propietario Propietario) {
+		// TODO Auto-generated method stub
+		base.add(Propietario);
+	}
+
+	@Override
+	public void actualizar(Propietario Propietario) {
+		// TODO Auto-generated method stub
+		this.eliminar(Propietario.getPlaca());
+		base.add(Propietario);
+	}
+
+	@Override
+	public void eliminar(String placa) {
+		// TODO Auto-generated method stub
+		Propietario v = this.seleccionarEliminar(placa);
+		base.remove(v);
+	}
+}

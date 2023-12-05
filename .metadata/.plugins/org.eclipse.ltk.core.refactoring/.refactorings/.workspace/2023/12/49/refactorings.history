@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;pa2_u1_p5_pfs&apos;" deleteContents="false" description="Delete resource &apos;pa2_u1_p5_pfs&apos;" element1="/pa2_u1_p5_pfs" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1701472760770"/>
+</session>

@@ -1,0 +1,21 @@
+package com.uce.edu.ec.service;
+
+import org.springframework.stereotype.Service;
+
+import com.uce.edu.ec.repository.modelo.Matricula;
+@Service
+public class MatriculaServiceImp implements IMatriculaService {
+
+	@Override
+	public void guardar(Matricula matricual) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void matricular(String cedula, String placa) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

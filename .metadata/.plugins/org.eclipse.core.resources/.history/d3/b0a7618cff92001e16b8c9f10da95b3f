@@ -1,0 +1,13 @@
+package com.uce.edu.ec.repository;
+
+import com.uce.edu.ec.repository.modelo.Matricula;
+
+public class MatriculaRepositoryImp implements IMatriculaRepository {
+
+	@Override
+	public void insertar(Matricula matricula) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

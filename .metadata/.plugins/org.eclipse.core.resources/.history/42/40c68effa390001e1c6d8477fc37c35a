@@ -1,0 +1,31 @@
+package com.uce.edu.inventario.service;
+
+import com.uce.edu.inventario.repository.modelo.Inventario;
+
+public class InventarioServiceImp implements IInventarioService {
+
+	@Override
+	public Inventario buscar(String codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void guardar(Inventario inv) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Inventario inv) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eliminar(String codigo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

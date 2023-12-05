@@ -1,0 +1,55 @@
+package com.uce.edu.inventario.repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.uce.edu.inventario.repository.modelo.Producto;
+import com.uce.edu.transferencia.repository.modelo.CuentaBancaria;
+
+public class ProductoRepositoryImp implements IProductoRepository {
+	public static List<Producto> base = new ArrayList<Producto>();
+	@Override
+	public Producto seleccionar(String codigoBarras) {
+		for(Producto producto: base) {
+			if(producto.getCodigoBarras().equals(codigoBarras)) {
+				Producto pro = new Producto();
+				pro.setCodigoBarras(producto.getCodigoBarras());
+				pro.setNombre(producto.getNombre());
+				pro.setStock(producto.getStock());
+				return pro;
+			}
+		}
+		return null;
+	}
+	
+	public CuentaBancaria seleccionarEliminar(String numero) {
+		for(CuentaBancaria cuenta: base) {
+			if(cuenta.getNumero().equals(numero)) {
+				return cuenta;
+			}
+		}
+		return null;
+	}
+	
+
+	@Override
+	public void insertar(CuentaBancaria ctaB) {
+		base.add(ctaB);
+		
+	}
+
+	@Override
+	public void actualizar(CuentaBancaria ctaB) {
+		this.eliminar(ctaB.getNumero());
+		this.insertar(ctaB);
+
+	}
+
+	@Override
+	public void eliminar(String numero) {
+		CuentaBancaria ctaB = this.seleccionarEliminar(numero);
+		base.remove(ctaB);
+
+	}
+
+}

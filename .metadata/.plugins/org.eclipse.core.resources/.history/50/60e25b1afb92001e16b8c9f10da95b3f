@@ -1,0 +1,14 @@
+package com.uce.edu.ec;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EjercicioPaU1P5PsApplication implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		SpringApplication.run(EjercicioPaU1P5PsApplication.class, args);
+	}
+
+}

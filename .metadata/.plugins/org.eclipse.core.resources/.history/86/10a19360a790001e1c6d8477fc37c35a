@@ -1,0 +1,48 @@
+package com.uce.edu.inventario.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.uce.edu.inventario.repository.IBodegaRepository;
+import com.uce.edu.inventario.repository.IInventarioRepository;
+import com.uce.edu.inventario.repository.modelo.Bodega;
+import com.uce.edu.inventario.repository.modelo.Inventario;
+
+public class InventarioServiceImp implements IInventarioService {
+
+	private IBodegaRepository bodegaRepository;
+	
+	@Autowired
+	private IInventarioRepository iInventarioRepository;
+
+	@Override
+	public Inventario buscar(String codigo) {
+		return this.iInventarioRepository.seleccionar(codigo);
+	}
+
+	@Override
+	public void guardar(Inventario inv) {
+		// TODO Auto-generated method stub
+		this.iInventarioRepository.insertar(inv);
+
+	}
+
+	@Override
+	public void actualizar(Inventario inv) {
+		// TODO Auto-generated method stub
+		this.iInventarioRepository.actualizar(inv);
+	}
+
+	@Override
+	public void eliminar(String codigo) {
+		// TODO Auto-generated method stub
+		this.iInventarioRepository.eliminar(codigo);
+	}
+
+	@Override
+	public void registrar(String codigoBodega, String codigoBarras, Integer stock) {
+		// TODO Auto-generated method stub
+		Bodega bodega = this.bodegaRepository.seleccionar(codigoBodega);
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+1700868916932	Rename type 'CuantaBancaria'
+1700868995489	Rename type 'ICuantaBancariaRepository'
+1700869585361	Encapsulate field 'numero'
+1700869887701	Rename type 'CuentaBancariaImp'
+1700869900278	Delete element
+1700871271528	Rename method 'insertar'
+1700871314445	Rename method 'seleccionar'

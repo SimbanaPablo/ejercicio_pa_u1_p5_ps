@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;matricual&apos; in &apos;com.uce.edu.ec.service.IMatriculaService.guardar(...)&apos; to &apos;matricula&apos;&#x0D;&#x0A;- Original project: &apos;ejercicio_pa_u1_p5_ps&apos;&#x0D;&#x0A;- Original element: &apos;com.uce.edu.ec.service.IMatriculaService.guardar(Matricula).matricual&apos;&#x0D;&#x0A;- Renamed element: &apos;matricual&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;matricual&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.uce.edu.ec.service{IMatriculaService.java[IMatriculaService~guardar~QMatricula;@matricual!148!166!158!166!QMatricula;!0!true" name="matricula" references="true" stamp="1701735369551" version="1.0"/>
+</session>
